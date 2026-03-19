@@ -6,7 +6,7 @@
 
 ## Apps Built with MobileForge
 
-Five prompts. Five apps. Five completely different design languages. All running on real iPhones.
+Four prompts. Four apps. Four completely different design languages. All running on real iPhones.
 
 <br>
 
@@ -28,18 +28,9 @@ Five prompts. Five apps. Five completely different design languages. All running
 
 **Mireille** &nbsp;·&nbsp; *"Build a recipe manager with categories and chef preferences"*
 
-| &nbsp; | &nbsp; |
-|---|---|
-| ![](https://github.com/user-attachments/assets/5ff27fae-0a51-448e-887f-14632f123666) | ![](https://github.com/user-attachments/assets/91e7ffb6-f266-46c4-91cd-79696a144f05) |<img width="660" height="1434" alt="IMG_3928" src="https://github.com/user-attachments/assets/d67a928d-c7a2-4b3b-bfcf-538f00d3e9d2" />|
-
-
-<br>
-
-**GymFlow** &nbsp;·&nbsp; *"Build a gym class booking app with weekly schedule and connected gyms"*
-
 | &nbsp; | &nbsp; | &nbsp; |
 |---|---|---|
-| ![](https://github.com/user-attachments/assets/d42d490b-6e6c-44ed-b721-58015f860c73) | ![](https://github.com/user-attachments/assets/b8558d25-a624-4afa-a614-2f8630c8b68d) | ![](https://github.com/user-attachments/assets/61086802-f194-425e-ab6a-6b5b76569dd4) |
+| ![](https://github.com/user-attachments/assets/5ff27fae-0a51-448e-887f-14632f123666) | ![](https://github.com/user-attachments/assets/91e7ffb6-f266-46c4-91cd-79696a144f05) | ![](https://github.com/user-attachments/assets/d67a928d-c7a2-4b3b-bfcf-538f00d3e9d2) |
 
 <br>
 
@@ -47,12 +38,7 @@ Five prompts. Five apps. Five completely different design languages. All running
 
 | &nbsp; | &nbsp; | &nbsp; |
 |---|---|---|
-| ![](https://github.com/user-attachments/assets/35e71cd5-ecd3-41df-b229-ded78dae47cc) | ![](https://github.com/user-attachments/assets/76a7fd96-d3dc-4a79-8842-004e4926b7aa) | ![](https://github.com/user-attachments/assets/a7bcb775-b436-4cfe-9c82-139bf5444773) |
-
-
-![IMG_4223](https://github.com/user-attachments/assets/680206e7-fe46-434c-9444-a53f7b6704eb)
-![IMG_4222](https://github.com/user-attachments/assets/bdc9c2e3-cc10-4ad0-8c47-1693dc3e773a)
-<img width="660" height="1434" alt="IMG_4224" src="https://github.com/user-attachments/assets/88636bcb-f2f0-49b8-89e8-3a22d78ded1c" />
+| ![](https://github.com/user-attachments/assets/680206e7-fe46-434c-9444-a53f7b6704eb) | ![](https://github.com/user-attachments/assets/bdc9c2e3-cc10-4ad0-8c47-1693dc3e773a) | ![](https://github.com/user-attachments/assets/88636bcb-f2f0-49b8-89e8-3a22d78ded1c) |
 
 ---
 
