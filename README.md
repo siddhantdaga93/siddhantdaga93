@@ -38,7 +38,7 @@ Four prompts. Four apps. Four completely different design languages. All running
 
 | &nbsp; | &nbsp; | &nbsp; |
 |---|---|---|
-| ![](https://github.com/user-attachments/assets/680206e7-fe46-434c-9444-a53f7b6704eb) | ![](https://github.com/user-attachments/assets/bdc9c2e3-cc10-4ad0-8c47-1693dc3e773a) | ![](https://github.com/user-attachments/assets/88636bcb-f2f0-49b8-89e8-3a22d78ded1c) |
+| ![](https://github.com/user-attachments/assets/680206e7-fe46-434c-9444-a53f7b6704eb) | ![](https://github.com/user-attachments/assets/bdc9c2e3-cc10-4ad0-8c47-1693dc3e773a) |
 
 ---
 
