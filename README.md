@@ -1,278 +1,82 @@
-# siddhantdaga
-Portfolio
-
-
 # MobileForge
 
-**AI-Powered Mobile App Generator | React Native + Expo**
-
-> A production-ready platform that transforms natural language prompts into fully functional, deployable mobile applications in under 60 seconds.
+**Every AI app builder generates web apps. MobileForge generates native iOS and Android apps that ship to the App Store.**
 
 ---
 
-## 🎯 What It Does
+## Apps Built with MobileForge
 
-MobileForge enables users to generate complete React Native mobile applications through conversational AI. Users describe their app idea in plain English, and the system generates:
+Five prompts. Five apps. Five completely different design languages. All running on real iPhones.
 
-- ✅ Complete React Native codebase (TypeScript)
-- ✅ Supabase backend integration with RLS policies
-- ✅ Production-ready UI components
-- ✅ Authentication & authorization
-- ✅ Real-time data synchronization
-- ✅ EAS Build configuration for iOS/Android deployment
+<br>
 
-**Example:**
-```
-User: "Build a todo app with priority badges and swipe-to-delete"
-Output: Fully functional mobile app with database, UI, and backend (45 seconds)
-```
+**Tideline** &nbsp;·&nbsp; *"Build a surf session tracker with wave quality ratings"*
 
----
+| &nbsp; | &nbsp; | &nbsp; |
+|---|---|---|
+| ![](https://github.com/user-attachments/assets/fe0feb0b-fb8f-4dfc-82a0-878a69614abc) | ![](https://github.com/user-attachments/assets/0d8c3474-379f-4728-a5fc-0e47ebe4ecb0) | ![](https://github.com/user-attachments/assets/818dfa6c-c34e-47f8-bd69-c410ae7addce) |
 
-## ✨ Why MobileForge Is Different
+<br>
 
-Most AI app builders generate shallow CRUD demos with minimal screens and fragile code. MobileForge enforces production standards from the first generation:
+**Workout Tracker** &nbsp;·&nbsp; *"Build a fitness logger with calorie tracking and a journey dashboard"*
 
-**What others generate:**
-- ❌ Single screen with basic list
-- ❌ No error states or loading indicators
-- ❌ Hardcoded credentials in code
-- ❌ No authentication flows
-- ❌ Generic, templated UI
+| &nbsp; | &nbsp; | &nbsp; |
+|---|---|---|
+| ![](https://github.com/user-attachments/assets/53caa812-c570-471f-a973-7d4823ab5fa7) | ![](https://github.com/user-attachments/assets/d9d583a5-750c-49d4-a128-2ecc659046de) | ![](https://github.com/user-attachments/assets/388ea721-1792-48d2-9cd5-d1453a6cb755) |
 
-**What MobileForge generates:**
-- ✅ Multi-screen apps with navigation
-- ✅ Complete error handling and empty states
-- ✅ Environment variable management
-- ✅ Full auth system (signup, login, logout, settings)
-- ✅ Contextual sample data and polished UI
+<br>
 
-**The result:** Apps feel *finished*, not generated. Users can deploy to the App Store immediately.
+**Mireille** &nbsp;·&nbsp; *"Build a recipe manager with categories and chef preferences"*
 
----
+| &nbsp; | &nbsp; |
+|---|---|
+| ![](https://github.com/user-attachments/assets/5ff27fae-0a51-448e-887f-14632f123666) | ![](https://github.com/user-attachments/assets/91e7ffb6-f266-46c4-91cd-79696a144f05) |
 
-## 🏗️ Technical Architecture
+<br>
 
-### Core Technologies
-- **Frontend:** Next.js 15, React, TypeScript
-- **Backend:** Node.js, Prisma ORM, PostgreSQL
-- **Mobile:** React Native, Expo SDK 50+, Expo Router
-- **AI:** OpenAI GPT-4o with custom prompt engineering
-- **Infrastructure:** Supabase (database + auth), EAS Build (app compilation)
+**GymFlow** &nbsp;·&nbsp; *"Build a gym class booking app with weekly schedule and connected gyms"*
 
-### System Design
-```
-User Prompt → AI Code Generator → Validation Pipeline → App Builder → EAS Build → Deployable App
-```
+| &nbsp; | &nbsp; | &nbsp; |
+|---|---|---|
+| ![](https://github.com/user-attachments/assets/d42d490b-6e6c-44ed-b721-58015f860c73) | ![](https://github.com/user-attachments/assets/b8558d25-a624-4afa-a614-2f8630c8b68d) | ![](https://github.com/user-attachments/assets/61086802-f194-425e-ab6a-6b5b76569dd4) |
 
-**Key Components:**
-1. **AI Code Generator** - Translates natural language to production code
-2. **6-Layer Validation System** - Ensures code quality, security, and TypeScript compliance
-3. **Auto-Fix Engine** - Automatically corrects common errors (imports, syntax)
-4. **Surgical Code Editor** - Enables iterative modifications via natural language
-5. **Real-Time Preview** - Live app preview in browser/mobile
+<br>
+
+**Pawfound** &nbsp;·&nbsp; *"Build a pet adoption app with animal profiles and shelter info"*
+
+| &nbsp; | &nbsp; | &nbsp; |
+|---|---|---|
+| ![](https://github.com/user-attachments/assets/35e71cd5-ecd3-41df-b229-ded78dae47cc) | ![](https://github.com/user-attachments/assets/76a7fd96-d3dc-4a79-8842-004e4926b7aa) | ![](https://github.com/user-attachments/assets/a7bcb775-b436-4cfe-9c82-139bf5444773) |
 
 ---
 
-## 💡 Technical Highlights
+## What It Is
 
-### 1. Intelligent Code Generation
-- Custom-engineered system prompts guide AI to generate production-ready code
-- Primitive-based architecture (no templates) for maximum flexibility
-- Built-in design system ensures visual consistency
-- Automatic inline sample data generation for immediate preview
+MobileForge is a platform that turns a text prompt into a complete, deployable React Native app in under 60 seconds. The output is real native code — not a web wrapper, not a prototype — that compiles and ships to the App Store via Expo's build infrastructure.
 
-### 2. Advanced Validation Pipeline
-Six-layer validation system with auto-fix capabilities:
-- Syntax validation (TypeScript compiler API)
-- Import resolution (path mapping, barrel exports)
-- Security validation (credential leaks, RLS policies)
-- Type checking (strict mode)
-- Component existence verification
-- File structure validation
+Users describe what they want. The platform handles architecture, design, data layer, and navigation. Each app gets a unique visual identity — color palette, typography, component layout — derived from the prompt context. No two apps look the same.
 
-**Auto-fix success rate:** ~85% of common errors resolved automatically
-
-### 3. Surgical Code Editing
-Users can modify generated apps through natural language requests:
-```
-"Add priority badges to the task list"
-"Change the color scheme to dark mode"
-"Add a search bar to filter tasks"
-```
-
-System performs:
-- Intent classification (UI, data, style, logic)
-- Minimal code changes (preserves existing functionality)
-- Version control (full edit history with rollback)
-- Real-time spec updates
-
-### 4. Production-Ready Output
-Every generated app includes:
-- Environment variable management (.env files)
-- Row Level Security (RLS) policies for multi-tenant data isolation
-- TypeScript strict mode (no `any` types)
-- Proper error handling and loading states
-- Responsive layouts with proper spacing/shadows
-- Authentication flows (signup, login, logout)
+Post-generation, users iterate through natural language edits. Each edit resolves to the exact file that needs changing, rewrites it completely with full context, and refreshes the preview. The platform handles the rest.
 
 ---
 
-## 🔐 Security & Best Practices
+## Product Decisions Worth Noting
 
-- **No hardcoded credentials** - All sensitive data in environment variables
-- **RLS enforcement** - Database policies ensure users only access their data
-- **Input validation** - User prompts sanitized before AI processing
-- **SQL injection prevention** - No raw SQL queries, Prisma ORM only
-- **Type safety** - Full TypeScript coverage with strict mode
+**Local-first by default.** Apps work immediately with on-device storage. No backend setup, no auth friction, no configuration. Backend connectivity is an upgrade path, not a prerequisite — which means the first experience is always fast and complete.
 
----
+**Design ownership stays with the AI.** The platform enforces structural contracts (file boundaries, data hooks, navigation patterns) and gives the AI complete creative freedom over everything visual. This produces genuinely different apps rather than variations of the same template.
 
-## 📊 Performance Metrics
+**Edit pipeline designed for reliability over features.** One model call per edit, full file in context, complete file returned. No retry loops, no validation chains. Fewer moving parts means fewer failure modes.
 
-- **Generation Time:** 30-60 seconds (full app)
-- **Code Quality:** Passes all validation layers before deployment
-- **File Count:** 15-25 files per app (screens, components, config)
-- **Lines of Code:** 500-1500 LOC (depends on complexity)
-- **Build Success Rate:** 95%+ (EAS Build compilation)
+**Generation and editing are separate concerns.** Generation optimizes for visual quality and completeness. Editing optimizes for precision and speed. Different prompting strategies, different models, different constraints.
 
 ---
 
-## 🛠️ Technical Challenges Solved
+## Stack
 
-### Challenge 1: AI Code Truncation
-**Problem:** AI responses cutting off mid-code due to token limits  
-**Solution:** Implemented retry logic with error feedback, increased context window to 16k tokens
-
-### Challenge 2: Import Path Resolution
-**Problem:** AI generating incorrect import paths (`@/components/ui` vs relative paths)  
-**Solution:** Custom import validator with auto-fix engine, path alias mapping
-
-### Challenge 3: Missing Base Files
-**Problem:** AI only generating screens, missing shared components/hooks  
-**Solution:** Template merging system - combines AI-generated code with base template files
-
-### Challenge 4: Validation Blocking Progress
-**Problem:** Validator rejecting incomplete code, preventing forward progress  
-**Solution:** Implemented tiered validation (critical vs. warnings), auto-fix attempts before rejection
-
-### Challenge 5: Real-Time Spec Parsing
-**Problem:** App metadata not updating after code edits  
-**Solution:** Post-edit spec re-parsing with inline data extraction from code arrays
+React Native · Expo · TypeScript · Next.js · Anthropic Claude · Supabase · Prisma · EAS Build
 
 ---
 
-## 🎨 Architecture Decisions
-
-### Why Primitives Over Templates?
-- **Flexibility:** Can generate any UI pattern, not locked to predefined screens
-- **Creativity:** AI has freedom to design unique layouts per use case
-- **Maintainability:** Single source of truth (system prompt), no template sprawl
-
-### Why GPT-4o Over Claude?
-- **Availability:** OpenAI API more accessible during development
-- **Cost:** Tiered pricing allows experimentation
-- **Note:** Architecture supports multi-model switching (Claude integration planned)
-
-### Why Expo Over Plain React Native?
-- **File-based routing** (Expo Router) - Cleaner navigation structure
-- **EAS Build** - Managed build service (no Xcode/Android Studio required)
-- **OTA Updates** - Push updates without app store resubmission
-- **Developer Experience** - Faster iteration cycles
-
----
-
-## 🚀 Key Features
-
-### For Users
-- **No-code app creation** - Describe your idea, get a working app
-- **Iterative editing** - Modify apps through conversation
-- **Real-time preview** - See changes instantly
-- **One-click deployment** - Build iOS/Android with a button
-
-### For Developers (Me)
-- **Custom validation framework** - Reusable across projects
-- **AI orchestration layer** - Manages multi-turn conversations, retries
-- **Code generation patterns** - Transferable to other domains
-- **Full-stack TypeScript** - Type-safe from DB to UI
-
----
-
-## 📈 Future Enhancements
-
-- Multi-model AI support (Claude, Gemini)
-- Advanced UI components (charts, animations, gestures)
-- Template marketplace (user-submitted archetypes)
-- Collaborative editing (team workspaces)
-- Analytics dashboard (app usage metrics)
-- Version control integration (Git export)
-
----
-
-## 🎓 What I Learned
-
-- **Prompt engineering** at scale - Crafting system prompts that guide AI behavior reliably
-- **Error recovery patterns** - Building resilient systems that handle AI unpredictability
-- **Structured code parsing** - Extracting typed data from generated code
-- **Full-stack TypeScript** - Next.js, Prisma, React Native in one codebase
-- **DevOps** - EAS Build integration, environment management, CI/CD considerations
-
----
-
-## 🔧 Technical Stack Summary
-
-**Frontend Dashboard:**
-- Next.js 15 (App Router)
-- React with TypeScript
-- shadcn/ui components
-- TailwindCSS
-
-**Backend:**
-- Node.js + Express
-- Prisma ORM
-- PostgreSQL
-- Supabase (hosted Postgres + Auth)
-
-**Generated Apps:**
-- React Native 0.73+
-- Expo SDK 50+
-- TypeScript (strict mode)
-- StyleSheet API (no CSS-in-JS)
-
-**AI & Validation:**
-- Anthropic API
-- Custom TypeScript compiler integration
-- Structured code parsing and static analysis
-- Multi-pass validation with auto-correction
-
-**Infrastructure:**
-- EAS Build (iOS/Android compilation)
-- Supabase (database, auth, storage)
-- Vercel (dashboard hosting)
-
----
-
-## 📝 Note on Code Availability
-
-This is a private project showcasing my technical capabilities. The repository is not public to protect intellectual property and competitive advantage. 
-
-**For hiring managers:** I'm happy to discuss the architecture in detail, walk through specific implementation patterns, or demonstrate the platform live during interviews.
-
----
-
-## 👨‍💻 About This Project
-
-**Duration:** 8 weeks (MVP)  
-**Role:** Solo Founder & Technical Lead  
-**Status:** Pre-launch (targeting January 20, 2026)
-
-Built as a demonstration of:
-- AI/LLM integration at production scale
-- Complex system architecture and fault tolerance
-- Product thinking + technical execution
-- Full-stack TypeScript proficiency
-
----
-
-**Contact:** siddhantdaga93@gmail.com
-**LinkedIn:** https://www.linkedin.com/in/siddhantdaga/
+*In active development. Private repository.*  
+siddhantdaga93@gmail.com &nbsp;·&nbsp; [linkedin.com/in/siddhantdaga](https://linkedin.com/in/siddhantdaga)
